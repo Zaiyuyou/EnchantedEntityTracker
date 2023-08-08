@@ -1,0 +1,11 @@
+tellraw @s[scores={zyy.eet.settings.lang=1}] {"text":"[实体数据追踪]","color":"#4dce84"}
+tellraw @s[scores={zyy.eet.settings.lang=1}] [{"text":"│","color":"#4dce84"},{"text":"[使用教程]","underlined": true,"color":"gold","clickEvent":{"action":"run_command","value":"/function eet:helps"},"hoverEvent":{"action":"show_text","contents":[{"text":"[点击使用]"}]}}]
+tellraw @s[scores={zyy.eet.settings.lang=1}] [{"text":"│","color":"#4dce84"},{"text":"[查看说明]","underlined": true,"color":"gold","clickEvent":{"action":"run_command","value":"/function eet:infos"},"hoverEvent":{"action":"show_text","contents":[{"text":"[点击使用]"}]}}]
+tellraw @s[scores={zyy.eet.settings.lang=1}] [{"text":"│","color":"#4dce84"},{"text":"[打开设置]","underlined": true,"color":"gold","clickEvent":{"action":"run_command","value":"/function eet:settings"},"hoverEvent":{"action":"show_text","contents":[{"text":"[点击使用]"}]}}]
+tellraw @s[scores={zyy.eet.settings.lang=1}] [{"text":"│","color":"#4dce84"},{"text":"[卸载数据包!(仅管理员)]","underlined": true,"color":"gold","clickEvent":{"action":"run_command","value":"/function eet:uni"},"hoverEvent":{"action":"show_text","contents":[{"text":"[点击使用]"}]}}]
+
+tellraw @s[scores={zyy.eet.settings.lang=0}] {"text":"[EET]","color":"#4dce84"}
+tellraw @s[scores={zyy.eet.settings.lang=0}] [{"text":"│","color":"#4dce84"},{"text":"[Helps]","underlined": true,"color":"gold","clickEvent":{"action":"run_command","value":"/function eet:helps"},"hoverEvent":{"action":"show_text","contents":[{"text":"[Click to use]"}]}}]
+tellraw @s[scores={zyy.eet.settings.lang=0}] [{"text":"│","color":"#4dce84"},{"text":"[Infos]","underlined": true,"color":"gold","clickEvent":{"action":"run_command","value":"/function eet:infos"},"hoverEvent":{"action":"show_text","contents":[{"text":"[Click to use]"}]}}]
+tellraw @s[scores={zyy.eet.settings.lang=0}] [{"text":"│","color":"#4dce84"},{"text":"[Settings]","underlined": true,"color":"gold","clickEvent":{"action":"run_command","value":"/function eet:settings"},"hoverEvent":{"action":"show_text","contents":[{"text":"[Click to use]"}]}}]
+tellraw @s[scores={zyy.eet.settings.lang=0}] [{"text":"│","color":"#4dce84"},{"text":"[UnLoad(Need OP)]","underlined": true,"color":"gold","clickEvent":{"action":"run_command","value":"/function eet:uni"},"hoverEvent":{"action":"show_text","contents":[{"text":"[Click to use]"}]}}]

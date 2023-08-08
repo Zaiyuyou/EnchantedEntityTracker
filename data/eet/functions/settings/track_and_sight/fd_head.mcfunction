@@ -1,0 +1,1 @@
+scoreboard players set @s zyy.eet.settings.foucus_show_distance 1

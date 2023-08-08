@@ -1,0 +1,2 @@
+title @a[scores={zyy.eet.settings.lang=0}] actionbar [{"text":"[EET]","color":"#4dce84"},{"text":"├ ","color":"#4dce84"},{"text":"The global calculation precision has been set to:","color":"yellow"},{"score":{"name":"settings","objective":"zyy.eet.precision"}}]
+title @a[scores={zyy.eet.settings.lang=1}] actionbar [{"text":"[实体数据追踪]","color":"#4dce84"},{"text":"├ ","color":"#4dce84"},{"text":"所有对象计算精度已设置为:","color":"yellow"},{"score":{"name":"settings","objective":"zyy.eet.precision"}}]
