@@ -55,19 +55,23 @@ execute as @e[tag=eet_track_temp] run function eet:tracker/track_temp
 #范围检测
 execute if score sight_marker_reset zyy.eet.tick matches 0 run scoreboard players add @a zyy.eet.settings.foucus 0
 
+<<<<<<< HEAD
 execute as @a[nbt={Inventory:[{Slot:103b,id:"minecraft:turtle_helmet"}]},scores={zyy.eet.settings.foucus=0}] run execute at @s as @e[distance=..20,limit=5,sort=nearest,type=!marker,type=!player,tag=!eet_label,tag=!eet_sight_marker,tag=!eet_track_temp,tag=!eet_track] run function eet:tracker/entrack/temp
+=======
+execute as @a[nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick"}},scores={zyy.eet.settings.foucus=-1}] run execute at @s as @e[distance=..20,limit=5,sort=nearest,type=!marker,type=!player,tag=!eet_label,tag=!eet_sight_marker,tag=!eet_track_temp,tag=!eet_track] run function eet:tracker/entrack/temp
+>>>>>>> b40a60e (EET-Tortoise-BetaDog)
 
 #视线检测
 #执行marker
-execute as @a[nbt={Inventory:[{Slot:103b,id:"minecraft:turtle_helmet"}]}] run function eet:sight_detect/head_player
+execute as @a[nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick"}}] run function eet:sight_detect/head_player
 
 execute as @e[tag=eet_sight_marker] run function eet:sight_detect/head_marker
 
-execute as @a[nbt=!{Inventory:[{Slot:103b,id:"minecraft:turtle_helmet"}]}] run scoreboard players reset @s zyy.eet.sight_uid
+execute as @a[nbt=!{SelectedItem:{id:"minecraft:warped_fungus_on_a_stick"}}] run scoreboard players reset @s zyy.eet.sight_uid
 
 
 #回收sight_uid计分板
-execute unless entity @p[nbt={Inventory:[{Slot:103b,id:"minecraft:turtle_helmet"}]}] run scoreboard players reset * zyy.eet.sight_uid 
+execute unless entity @p[nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick"}}] run scoreboard players reset * zyy.eet.sight_uid 
 
 #回收marker和life_time计分板
 #5分钟

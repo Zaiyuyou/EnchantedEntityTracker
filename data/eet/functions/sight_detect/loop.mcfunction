@@ -34,5 +34,5 @@ execute at @s if score @p[scores={zyy.eet.object_uid_opr=0}] zyy.eet.settings.fo
 
 
 #范围显示
-execute at @s[scores={zyy.eet.loop_times=..0}] run execute if score @p[nbt={Inventory:[{Slot:103b,id:"minecraft:turtle_helmet"}]},scores={zyy.eet.object_uid_opr=0}] zyy.eet.settings.foucus_show_distance matches 1 run particle dust 0.882 1 0 1.5 
+execute at @s[scores={zyy.eet.loop_times=..0}] run execute if score @p[nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick"}},scores={zyy.eet.object_uid_opr=0}] zyy.eet.settings.foucus_show_distance matches 1 run particle dust 0.882 1 0 1.5 
 execute as @s[scores={zyy.eet.loop_times=1..}] run function eet:sight_detect/loop

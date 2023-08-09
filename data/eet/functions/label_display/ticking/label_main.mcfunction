@@ -21,4 +21,8 @@ execute as @s run scoreboard players remove @s zyy.eet.object_life_time 1
 execute as @s[scores={zyy.eet.object_life_time=..-1},tag=!eet_label_new] run function eet:remove_object
 
 #保持面朝玩家
+<<<<<<< HEAD
 execute as @s at @s run tp @s ~ ~ ~ facing entity @p[distance=..10,nbt={Inventory:[{Slot:103b,id:"minecraft:turtle_helmet"}]}] eyes
+=======
+execute as @s at @s run tp @s ~ ~ ~ facing entity @p[scores={zyy.eet.sight_uid_opr=0},nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick"}}] eyes
+>>>>>>> b40a60e (EET-Tortoise-BetaDog)
