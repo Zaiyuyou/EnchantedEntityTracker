@@ -3,7 +3,7 @@
 scoreboard players add @s zyy.eet.sight_uid 0
 
 #如果没有或者是负数，就删除自己
-execute as @s[tag=!eet_sight_marker_new,scores={zyy.eet.sight_uid=..0}] run kill @s
+execute as @s[tag=!eet_sight_marker_new,scores={zyy.eet.sight_uid=..0}] run function eet:remove_object
 
 #如果不是，就检测有没有自己的player
 execute as @s[tag=!eet_sight_marker_new,scores={zyy.eet.sight_uid=1..}] run execute as @a[nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick"}}] run scoreboard players operation @s zyy.eet.object_uid_opr = @s zyy.eet.sight_uid

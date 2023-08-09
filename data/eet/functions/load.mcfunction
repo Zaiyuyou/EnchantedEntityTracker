@@ -59,6 +59,7 @@ scoreboard objectives add zyy.eet.marker_quantity dummy "EET marker 数量"
 scoreboard objectives add zyy.eet.object_uid dummy "追踪器uid"
 scoreboard objectives add zyy.eet.object_uid_opr dummy "对象uid计算池"
 scoreboard objectives add zyy.eet.sight_uid dummy "视线检测uid"
+scoreboard objectives add zyy.eet.sight_uid_opr dummy "视线uid计算池"
 
 
 
@@ -181,7 +182,7 @@ scoreboard players set label_keep_time zyy.eet.track_settings 1
 
 #设置默认聚焦宽度
 #此选项影响到 tracker/track_temp 以及 sight_detect/loop
-scoreboard players set pointing_width zyy.eet.track_settings 2
+scoreboard players set pointing_width zyy.eet.track_settings 1
 
 
 

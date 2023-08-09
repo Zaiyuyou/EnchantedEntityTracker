@@ -53,13 +53,15 @@ execute as @e[tag=eet_track_temp] run function eet:tracker/track_temp
 #------------------------------------------------------------------------------#
 
 #范围检测
-execute if score sight_marker_reset zyy.eet.tick matches 0 run scoreboard players add @a zyy.eet.settings.foucus 0
+execute if score timer_main zyy.eet.tick matches 0 run scoreboard players add @a zyy.eet.settings.foucus 0
+execute if score timer_main zyy.eet.tick matches 0 run scoreboard players set @a[scores={zyy.eet.settings.foucus=0}] zyy.eet.settings.foucus 1
 
-<<<<<<< HEAD
 execute as @a[nbt={Inventory:[{Slot:103b,id:"minecraft:turtle_helmet"}]},scores={zyy.eet.settings.foucus=0}] run execute at @s as @e[distance=..20,limit=5,sort=nearest,type=!marker,type=!player,tag=!eet_label,tag=!eet_sight_marker,tag=!eet_track_temp,tag=!eet_track] run function eet:tracker/entrack/temp
-=======
+
 execute as @a[nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick"}},scores={zyy.eet.settings.foucus=-1}] run execute at @s as @e[distance=..20,limit=5,sort=nearest,type=!marker,type=!player,tag=!eet_label,tag=!eet_sight_marker,tag=!eet_track_temp,tag=!eet_track] run function eet:tracker/entrack/temp
->>>>>>> b40a60e (EET-Tortoise-BetaDog)
+
+execute as @a[nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick"}},scores={zyy.eet.settings.foucus=-1}] run execute at @s as @e[distance=..20,limit=5,sort=nearest,type=!marker,type=!player,tag=!eet_label,tag=!eet_sight_marker,tag=!eet_track_temp,tag=!eet_track] run function eet:tracker/entrack/temp
+
 
 #视线检测
 #执行marker

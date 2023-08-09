@@ -23,6 +23,7 @@ scoreboard objectives remove zyy.eet.loop_times
 scoreboard objectives remove zyy.eet.object_uid 
 scoreboard objectives remove zyy.eet.object_uid_opr 
 scoreboard objectives remove zyy.eet.sight_uid 
+scoreboard objectives remove zyy.eet.sight_uid_opr
 
 
 
@@ -118,11 +119,6 @@ scoreboard objectives remove zyy.eet.track_settings
 
 #移除性能测试计分板
 scoreboard objectives remove zyy.eet.property
-
-
-
-
-
 
 
 kill @e[tag=eet_label]
