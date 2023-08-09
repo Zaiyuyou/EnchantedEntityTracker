@@ -3,8 +3,8 @@ tellraw @s[scores={zyy.eet.settings.lang=1}] [{"text":"├ ","color":"#4dce84"},
 
 tellraw @s[scores={zyy.eet.settings.lang=1}] [{"text":"│ ","color":"#4dce84"},{"text":"│ ","color":"aqua"}]
 
-tellraw @s[scores={zyy.eet.settings.lang=1}] [{"text":"│ ","color":"#4dce84"},{"text":"├ ","color":"aqua"},{"text":"[1][使用海龟壳以及诡异菌钓竿]","color":"yellow"}]
-tellraw @s[scores={zyy.eet.settings.lang=1}] [{"text":"│ ","color":"#4dce84"},{"text":"├ ","color":"aqua"},{"text":"戴上海龟壳之后视线看到的实体会显示信息","color":"yellow"}]
+tellraw @s[scores={zyy.eet.settings.lang=1}] [{"text":"│ ","color":"#4dce84"},{"text":"├ ","color":"aqua"},{"text":"[1][使用诡异菌钓竿]","color":"yellow"}]
+tellraw @s[scores={zyy.eet.settings.lang=1}] [{"text":"│ ","color":"#4dce84"},{"text":"├ ","color":"aqua"},{"text":"手持诡异菌钓竿之后视线看到的实体会显示信息","color":"yellow"}]
 tellraw @s[scores={zyy.eet.settings.lang=1}] [{"text":"│ ","color":"#4dce84"},{"text":"├ ","color":"aqua"},{"text":"有两种显示模式，一种是视线检测，一种是","color":"yellow"}]
 tellraw @s[scores={zyy.eet.settings.lang=1}] [{"text":"│ ","color":"#4dce84"},{"text":"├ ","color":"aqua"},{"text":"范围检测。可以在设置里切换显示模式、","color":"yellow"}]
 tellraw @s[scores={zyy.eet.settings.lang=1}] [{"text":"│ ","color":"#4dce84"},{"text":"├ ","color":"aqua"},{"text":"以及视线检测的范围，还有显示的信息类型","color":"yellow"}]
@@ -44,9 +44,9 @@ tellraw @s[scores={zyy.eet.settings.lang=0}] {"text":"[EET]","color":"#4dce84"}
 tellraw @s[scores={zyy.eet.settings.lang=0}] [{"text":"├ ","color":"#4dce84"},{"text":"[Introductin]:","color":"aqua"}]
 tellraw @s[scores={zyy.eet.settings.lang=0}] [{"text":"│ ","color":"#4dce84"},{"text":"│ ","color":"aqua"}]
 
-tellraw @s[scores={zyy.eet.settings.lang=0}] [{"text":"│ ","color":"#4dce84"},{"text":"├ ","color":"aqua"},{"text":"[1][Turtle Helmet & fungus rod]","color":"yellow"}]
-tellraw @s[scores={zyy.eet.settings.lang=0}] [{"text":"│ ","color":"#4dce84"},{"text":"├ ","color":"aqua"},{"text":"When you wear the shell, the entities","color":"yellow"}]
-tellraw @s[scores={zyy.eet.settings.lang=0}] [{"text":"│ ","color":"#4dce84"},{"text":"├ ","color":"aqua"},{"text":" you see will display label","color":"yellow"}]
+tellraw @s[scores={zyy.eet.settings.lang=0}] [{"text":"│ ","color":"#4dce84"},{"text":"├ ","color":"aqua"},{"text":"[1][Fungus rod]","color":"yellow"}]
+tellraw @s[scores={zyy.eet.settings.lang=0}] [{"text":"│ ","color":"#4dce84"},{"text":"├ ","color":"aqua"},{"text":"When you holding a fungus rod, the entities","color":"yellow"}]
+tellraw @s[scores={zyy.eet.settings.lang=0}] [{"text":"│ ","color":"#4dce84"},{"text":"├ ","color":"aqua"},{"text":" you will see display label","color":"yellow"}]
 
 tellraw @s[scores={zyy.eet.settings.lang=0}] [{"text":"│ ","color":"#4dce84"},{"text":"├ ","color":"aqua"},{"text":"There are two display modes, one ","color":"yellow"}]
 tellraw @s[scores={zyy.eet.settings.lang=0}] [{"text":"│ ","color":"#4dce84"},{"text":"├ ","color":"aqua"},{"text":" is line of sight detection and ","color":"yellow"}]
